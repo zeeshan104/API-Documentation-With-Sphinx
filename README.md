@@ -4,7 +4,7 @@ This guide shows how to generate API documentation for an ESP-IDF project using 
 ## Table of Contents
 - [Tools Installation](#tools-installation)
 - [Preparing Your APIs](#preparing-your-apis)
-- [Start Documentation](#generate-doxygen-configuration)
+- [Start Documentation](#start-documentation)
 
 ## Tools Installation
 
