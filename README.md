@@ -9,7 +9,8 @@ This guide shows how to generate API documentation for an ESP-IDF project using 
 ## Tools Installation
 
 - **Doxygen**
-Download and install the Doxygen from the Links below. 
+  
+    Download and install the Doxygen from the Link below. 
   - Releases: <https://github.com/doxygen/doxygen/releases/tag/Release_1_14_0>
   
 
@@ -73,7 +74,7 @@ This command generates a Doxygen configuration template file with the provided n
 After editing the doxygen configuration file you are ready to create sphinx project. 
  
 > [!NOTE]
-> The INPUT and OUTPUT_DIRECTORY paths are the relative paths to the doc directory. In this repo, the INPUT path is the IDF components directory where all the APIs reside. So the path is `INPUT = ../components`. And OUTPUT_DIRECTORY = doxygen_build, means when you execute the doxygen command the generated output will be placed in `doxygen_build` directory.
+> The INPUT and OUTPUT_DIRECTORY paths are the relative paths to the doc directory. In this repo, the INPUT path is the IDF components directory where all the APIs reside. So the path is `INPUT = ../components`. And `OUTPUT_DIRECTORY = doxygen_build`, means when you execute the doxygen command the generated output will be placed in `doxygen_build` directory.
 
 
 ### Sphinx Project Setup
@@ -146,6 +147,10 @@ To Build documentation first enter: `doxygen doxygen_api_config`. Here `doxygen_
 Then enter `make html`. Hurray here is your API document. You can find the index.html in `_build/html/index.html`
 
 ![api_doc](img/api_doc.png)
+
+
+> [!TIP]
+> You can use same steps to document your projects other than ESP-IDF. 
 
 
 
