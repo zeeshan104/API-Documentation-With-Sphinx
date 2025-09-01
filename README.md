@@ -1,5 +1,5 @@
 # API Documentation with Sphinx 
-This guide shows how to generate API documentation for an ESP-IDF project using **Doxygen** for parsing code comments and **Sphinx** (with **Breathe** and the **Read the Docs** theme) for building readable HTML docs.
+This guide shows how to generate API (or ESP-IDF components) documentation for an ESP-IDF project using **Doxygen** and **Sphinx** (with **Breathe** and the **Read the Docs** theme). You can apply the steps to any project you want to document. 
 
 ## Table of Contents
 - [Tools Installation](#tools-installation)
