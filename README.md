@@ -94,7 +94,7 @@ After this command, you will get a template Sphinx project. Now you have to edit
 
 #### [Sphinx] Edit conf.py File
 
-Edit or Add the following line of code in the conf.py file
+Edit or Add the following lines of code in the conf.py file
 ```
 extensions = ['breathe']
 breathe_projects = {"api_doc": "./doxygen_build/xml"}
