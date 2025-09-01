@@ -32,7 +32,7 @@ For documentation, let’s say we have an ESP-IDF project with two components. S
 
 ![project_components](img/project_components.png)
 
-To document these two snesors APIs, We have to add doxygen style comments in our API (or component) header file. During programming your APIs,you must add comments with your variables, classes, structures, Enums, and functions according to Doxygen syntax. Here is the sample comment and its generated output.
+To document these two snesors APIs, We have to add doxygen style comments in our API (or component) header file. During programming your APIs, you must add comments with your variables, classes, structures, Enums, and functions according to Doxygen syntax. Here is the sample comment and its generated output.
 ```
     /**
      * @brief Add the temperature sensor to the I2C bus.
